@@ -1,9 +1,9 @@
 <?php
 
-$host = 'localhost'; 
-$dbname = 'mwiemanndb';
-$user = 'wbiksnbnml'; 
-$password = 'T05H45Z455TQUNP8$';
+$host = 'mwiemannapp-server.mysql.database.azure.com'; 
+$dbname = 'mwiemannapp-database';
+$user = 'fjrltfjbwg'; 
+$password = 'rDX1T3)OE8c0';
 
 try {
 
