@@ -1,13 +1,13 @@
 <?php
 
-$host = 'mwiemannapp-server.mysql.database.azure.com'; 
+$host = 'mwiemannapp.mysql.database.azure.com'; 
 $dbname = 'mwiemannapp-database';
-$user = 'fjrltfjbwg'; 
+$user = 'fjrltfjbwg@mwiemannapp'; 
 $password = 'rDX1T3)OE8c0';
 
 try {
 
-    $pdo = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);
     
 
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
