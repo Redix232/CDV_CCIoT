@@ -1,6 +1,6 @@
 <?php
 
-$host = 'mwiemannapp.mysql.database.azure.com'; 
+$host = 'mwiemannapp.azurewebsites.net'; 
 $dbname = 'mwiemannapp-database';
 $user = 'fjrltfjbwg@mwiemannapp'; 
 $password = 'rDX1T3)OE8c0';
